@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aventurin Ajans</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    :root {
+      --tokyesil: #004225;
+    }
+    a {
+      color: var(--tokyesil);
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="leading-relaxed">
+
+
+  <!-- HEADER -->
+  <header class="sticky top-0 bg-white shadow-md z-50 flex justify-between items-center px-8 py-5">
+    <h1 class="text-3xl font-bold text-[var(--tokyesil)]">Aventurin Ajans</h1>
+    <nav class="space-x-6 text-lg font-semibold">
+      <a href="#about" class="hover:text-green-800">Hakkımızda</a>
+      <a href="#services" class="hover:text-green-800">Hizmetlerimiz</a>
+      <a href="#stats" class="hover:text-green-800">Başarılarımız</a>
+      <a href="#team" class="hover:text-green-800">Ekibimiz</a>
+      <a href="#faq" class="hover:text-green-800">S.S.S</a>
+      <a href="#privacy" class="hover:text-green-800">Gizlilik</a>
+      <a href="#basvuru" class="hover:text-green-800">Başvuru</a>
+      <a href="#contact" class="hover:text-green-800">İletişim</a>
+    </nav>
+  </header>
+
+<!-- HERO - Video alanı, yüksek ve canlı renkli -->
+<section class="relative w-full h-[600px] overflow-hidden mb-16">
+  <video autoplay muted loop playsinline
+    class="absolute top-0 left-0 w-full h-full object-cover"
+    style="filter: brightness(1.1) contrast(1.3) saturate(1.5);">
+    <source src="video.mp4" type="video/mp4" />
+  </video>
+  <div class="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
+</section>
+
+ <!-- Kurucudan Mesaj -->
+<section
+  class="py-20 px-8 max-w-4xl mx-auto text-center mb-28 rounded-xl shadow-xl text-white"
+  id="founder"
+  style="background: linear-gradient(135deg, #a084ca, #d8b4f8);"
+  data-aos="fade-up"
+  data-aos-duration="1200"
+>
+  <h3 class="text-5xl font-extrabold mb-12 drop-shadow-lg uppercase tracking-wide">
+    Kurucudan Mesaj
+  </h3>
+  <p class="text-xl italic max-w-3xl mx-auto leading-relaxed space-y-6 drop-shadow-md">
+    Merhaba, ben <span class="font-semibold text-white">Anka</span>.<br><br>
+    Aventurin Ajans’ı, <span class="font-semibold text-white">kadınların kendi güçlerini fark ederek ekonomik özgürlüklerini</span> kazanabilecekleri bir sistem kurmak amacıyla hayata geçirdim.<br><br>
+    Bu işin her adımını en ince detayına kadar yaşadım. Yayıncı olarak başladım, zamanla <span class="font-semibold text-white">kazancın, güvenin ve desteğin ne kadar önemli</span> olduğunu gördüm.<br><br>
+    Bugün yüzlerce kadının kendi hayatını değiştirmesine şahit oluyorum.<br>
+    Aventurin, sadece bir ajans değil — <span class="font-semibold underline decoration-white decoration-2 underline-offset-4">bir yol arkadaşı.</span><br><br>
+    Sen de kendi yolculuğuna başlamak istiyorsan, <span class="text-white font-bold">biz buradayız.</span><br><br>
+    <span class="font-bold text-2xl text-white drop-shadow-lg">“Gerçek başarı, kendi zamanına ve emeğine değer vererek başlar.”</span>
+  </p>
+</section>
+
+
+
+
+<!-- Hakkımızda -->
+<section
+  id="about"
+  class="py-20 px-8 max-w-4xl mx-auto text-center mb-28 rounded-xl shadow-xl text-white"
+  style="background: linear-gradient(135deg, #a084ca, #d8b4f8);"
+  data-aos="fade-up"
+  data-aos-duration="1200"
+>
+  <h3 class="text-5xl font-extrabold mb-12 drop-shadow-lg uppercase tracking-wide">
+    Hakkımızda
+  </h3>
+  <p class="text-xl italic max-w-3xl mx-auto leading-relaxed mb-6 drop-shadow-md">
+    Aventurin Ajans, dijital yayıncılıkta <span class="font-semibold underline decoration-white decoration-2 underline-offset-4">kadın odaklı, güvenilir ve yenilikçi</span> bir ajanstır. Yayıncılarımızın özgürce çalışabileceği, şeffaf ve destekleyici bir sistem kurduk.
+  </p>
+  <p class="text-xl italic max-w-3xl mx-auto leading-relaxed mb-6 drop-shadow-md">
+    Uluslararası uygulamalarda aktif olarak yer alıyor; <span class="font-semibold underline decoration-white decoration-2 underline-offset-4">içerik yönetimi, kazanç optimizasyonu</span> ve birebir destek sunuyoruz.
+  </p>
+  <p class="text-xl italic max-w-3xl mx-auto leading-relaxed drop-shadow-md">
+    Bizimle çalışmak sadece bir iş değil, <span class="font-semibold underline decoration-white decoration-2 underline-offset-4">kendi gücünü keşfetme yolculuğudur.</span> Aventurin; alan açar, destek olur ve gerçek kazanç sunar.
+  </p>
+</section>
+
+<!-- Hizmetlerimiz -->
+<section
+  id="services"
+  class="py-20 px-8 max-w-6xl mx-auto mb-28 rounded-xl shadow-xl text-white"
+  style="background: linear-gradient(135deg, #a084ca, #d8b4f8);"
+  data-aos="fade-up"
+  data-aos-duration="1200"
+>
+  <h3 class="text-5xl font-extrabold mb-12 text-center drop-shadow-lg uppercase tracking-wide">
+    Hizmetlerimiz
+  </h3>
+  <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto text-lg">
+    <div class="bg-[rgba(255,255,255,0.1)] p-8 rounded-xl shadow-md hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+      <h4 class="text-3xl font-semibold mb-6 border-b-2 pb-2 border-white">Yayıncı Yönetimi</h4>
+      <p>Kadın yayıncılarımızın başvuru, eğitim, performans ve kazanç süreçlerini profesyonelce yönetiyoruz. Her adımda yanlarındayız.</p>
+    </div>
+    <div class="bg-[rgba(255,255,255,0.1)] p-8 rounded-xl shadow-md hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+      <h4 class="text-3xl font-semibold mb-6 border-b-2 pb-2 border-white">Uygulama İş Ortaklıkları</h4>
+      <p>Yurt içi ve yurt dışındaki güvenilir uygulamalarla iş birliği yapıyor, yayıncılarımız için sürdürülebilir kazanç alanları oluşturuyoruz.</p>
+    </div>
+    <div class="bg-[rgba(255,255,255,0.1)] p-8 rounded-xl shadow-md hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+      <h4 class="text-3xl font-semibold mb-6 border-b-2 pb-2 border-white">Reklam & Yayıncı Kazanım Stratejisi</h4>
+      <p>Sosyal medya ve dijital platformlarda hedef odaklı reklamlarla yeni yayıncıları sistemimize kazandırıyoruz.</p>
+    </div>
+    <div class="bg-[rgba(255,255,255,0.1)] p-8 rounded-xl shadow-md hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+      <h4 class="text-3xl font-semibold mb-6 border-b-2 pb-2 border-white">Kadın Destek Ekibi</h4>
+      <p>Destek ekibimiz tamamen kadınlardan oluşur. Yayıncılarımızla birebir ilgilenen, anlayışlı ve çözüm odaklı bir kadromuz vardır.</p>
+    </div>
+    <div class="bg-[rgba(255,255,255,0.1)] p-8 rounded-xl shadow-md hover:shadow-2xl transition-transform duration-300 hover:scale-105 md:col-span-2">
+      <h4 class="text-3xl font-semibold mb-6 border-b-2 pb-2 border-white">Gelir Optimizasyonu</h4>
+      <p>Yayıncılarımızın maksimum kazanç sağlaması için veri analizi, stratejik yönlendirme ve düzenli raporlama desteği sunuyoruz.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Başarılarımız -->
+<section
+  id="stats"
+  class="py-20 px-8 max-w-4xl mx-auto text-center mb-28 rounded-xl shadow-xl text-white"
+  data-aos="fade-up"
+  data-aos-duration="1200"
+  style="background: linear-gradient(135deg, #a084ca, #d8b4f8);"
+>
+  <h3 class="text-5xl font-extrabold mb-20 tracking-wide drop-shadow-lg uppercase">
+    📊 Rakamlarla Başarılarımız
+  </h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-3xl mx-auto text-xl font-semibold">
+    <div class="bg-[rgba(255,255,255,0.15)] rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-transform duration-300 hover:scale-105 flex flex-col justify-center items-center">
+      <span class="text-6xl mb-3 font-extrabold drop-shadow-md">97%</span>
+      <span class="text-lg font-medium">Yayıncı Memnuniyeti</span>
+    </div>
+    <div class="bg-[rgba(255,255,255,0.15)] rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-transform duration-300 hover:scale-105 flex flex-col justify-center items-center">
+      <span class="text-6xl mb-3 font-extrabold drop-shadow-md">5+</span>
+      <span class="text-lg font-medium">Aktif Uygulama Ortaklığı</span>
+    </div>
+    <div class="bg-[rgba(255,255,255,0.15)] rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-transform duration-300 hover:scale-105 flex flex-col justify-center items-center">
+      <span class="text-6xl mb-3 font-extrabold drop-shadow-md">1000+</span>
+      <span class="text-lg font-medium">Başvuru, 300+ Aktif Yayıncı</span>
+    </div>
+    <div class="bg-[rgba(255,255,255,0.15)] rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-transform duration-300 hover:scale-105 flex flex-col justify-center items-center">
+      <span class="text-6xl mb-3 font-extrabold drop-shadow-md">500$+</span>
+      <span class="text-lg font-medium">Haftalık Ortalama Yayıncı Geliri</span>
+    </div>
+  </div>
+</section>
+
+<!-- Ekibimiz -->
+<section
+  id="team"
+  class="py-20 px-8 max-w-4xl mx-auto text-center mt-28 rounded-xl shadow-xl text-white"
+  data-aos="fade-up"
+  style="background: linear-gradient(135deg, #a084ca, #d8b4f8);"
+>
+  <h3 class="text-4xl font-extrabold mb-14 tracking-wide drop-shadow-lg uppercase">
+    Ekibimiz
+  </h3>
+
+  <p class="max-w-3xl mx-auto leading-relaxed mb-8 italic drop-shadow-md">
+    Aventurin Ajans, tamamı kadınlardan oluşan destek ekibiyle yayıncılarına birebir ilgilenir.<br />
+    Her bir ekip üyemiz, yayıncıların ihtiyaçlarını anlayan, yönlendiren ve destekleyen güçlü kadınlardan oluşur.
+  </p>
+
+  <ul class="max-w-md mx-auto text-left space-y-4 text-lg font-semibold">
+    <li class="flex items-center gap-3 cursor-default hover:text-white/80 transition">
+      <span class="text-white text-2xl select-none"✔️</span>
+      Eğitim &amp; Oryantasyon Sorumluları
+    </li>
+    <li class="flex items-center gap-3 cursor-default hover:text-white/80 transition">
+      <span class="text-white text-2xl select-none">✔️</span>
+      Günlük Takip ve Motivasyon Ekibi
+    </li>
+    <li class="flex items-center gap-3 cursor-default hover:text-white/80 transition">
+      <span class="text-white text-2xl select-none">✔️</span>
+      Teknik Destek ve Hesap Yöneticileri
+    </li>
+    <li class="flex items-center gap-3 cursor-default hover:text-white/80 transition">
+      <span class="text-white text-2xl select-none">✔️</span>
+      Uygulama İlişkileri &amp; Raporlama Birimi
+    </li>
+  </ul>
+
+  <p class="max-w-3xl mx-auto leading-relaxed mt-12 font-medium italic drop-shadow-md">
+    Bizi farklı kılan, sadece teknik değil; <span class="font-bold">duygusal zekâmız</span> ve <span class="font-bold">kadın dayanışmamız</span>.
+  </p>
+</section>
+
+<!-- Boşluk Arttırıldı -->
+<div style="height: 80px;"></div>
+
+<!-- Sıkça Sorulan Sorular -->
+<section
+  id="faq"
+  class="py-20 px-6 max-w-5xl mx-auto rounded-xl shadow-xl text-white"
+  style="background: linear-gradient(135deg, #a084ca, #d8b4f8);"
+  data-aos="fade-up"
+  data-aos-duration="1200"
+>
+  <h3 class="text-4xl font-extrabold mb-20 text-center tracking-wide relative inline-block drop-shadow-lg uppercase">
+    Sıkça Sorulan Sorular
+    <span class="block h-1 w-28 bg-white/70 mx-auto mt-3 rounded-full"></span>
+  </h3>
+  <div class="max-w-3xl mx-auto leading-relaxed space-y-6">
+    
+    <details class="group bg-white/20 rounded-lg shadow-md p-5 cursor-pointer transition hover:shadow-lg">
+      <summary class="font-semibold text-xl flex items-center gap-3 list-none text-white">
+        <span class="text-2xl">💸</span> Gerçekten para kazanabiliyor muyum?
+        <span class="ml-auto transition-transform duration-300 group-open:rotate-45 text-white text-2xl">+</span>
+      </summary>
+      <p class="mt-3 pl-8 text-white/90">
+        Evet. Yayıncılarımız sistemli ve düzenli çalıştığında haftalık 500$+ gelir elde edebiliyor. Kazanç, uygulama ve performansına göre değişir.
+      </p>
+    </details>
+
+    <details class="group bg-white/20 rounded-lg shadow-md p-5 cursor-pointer transition hover:shadow-lg">
+      <summary class="font-semibold text-xl flex items-center gap-3 list-none text-white">
+        <span class="text-2xl">📱</span> Ne yapmam gerekiyor?
+        <span class="ml-auto transition-transform duration-300 group-open:rotate-45 text-white text-2xl">+</span>
+      </summary>
+      <p class="mt-3 pl-8 text-white/90">
+        Telefonunla uygulamalara giriş yapıyor, gelen mesajlara cevap veriyor veya sesli/görüntülü aramalara katılıyorsun. Sistem basit ama disiplinli çalışma gerektirir.
+      </p>
+    </details>
+
+    <details class="group bg-white/20 rounded-lg shadow-md p-5 cursor-pointer transition hover:shadow-lg">
+      <summary class="font-semibold text-xl flex items-center gap-3 list-none text-white">
+        <span class="text-2xl">👩‍💻</span> Yayıncı olmak için ne gerekiyor?
+        <span class="ml-auto transition-transform duration-300 group-open:rotate-45 text-white text-2xl">+</span>
+      </summary>
+      <ul class="list-disc list-inside ml-8 mt-3 text-white/90 space-y-1">
+        <li>18 yaş ve üzeri olmak</li>
+        <li>Akıllı telefon veya bilgisayar</li>
+        <li>Düzenli çalışmaya uygun zaman</li>
+        <li>Gizliliğe ve kurallara saygılı olmak</li>
+      </ul>
+      <p class="mt-2 pl-8 text-white/90">Başvuru sonrası detaylı eğitim ve yönlendirme sunuyoruz.</p>
+    </details>
+
+    <details class="group bg-white/20 rounded-lg shadow-md p-5 cursor-pointer transition hover:shadow-lg">
+      <summary class="font-semibold text-xl flex items-center gap-3 list-none text-white">
+        <span class="text-2xl">⏱</span> Ne kadar zaman ayırmam gerekir?
+        <span class="ml-auto transition-transform duration-300 group-open:rotate-45 text-white text-2xl">+</span>
+      </summary>
+      <p class="mt-3 pl-8 text-white/90">
+        Senin zamanına göre şekillenir. Günde 2 saat çalışan da var, 8 saat çalışan da. Ne kadar aktif olursan, kazancın o kadar artar.
+      </p>
+    </details>
+
+    <details class="group bg-white/20 rounded-lg shadow-md p-5 cursor-pointer transition hover:shadow-lg">
+      <summary class="font-semibold text-xl flex items-center gap-3 list-none text-white">
+        <span class="text-2xl">👭</span> Destek ekibine ulaşabilir miyim?
+        <span class="ml-auto transition-transform duration-300 group-open:rotate-45 text-white text-2xl">+</span>
+      </summary>
+      <p class="mt-3 pl-8 text-white/90">
+        Evet. Destek ekibimiz tamamen kadınlardan oluşur ve haftanın her günü yanındadır. Sorularını, sorunlarını ve yönlendirme ihtiyaçlarını güvenle paylaşabilirsin.
+      </p>
+    </details>
+
+    <details class="group bg-white/20 rounded-lg shadow-md p-5 cursor-pointer transition hover:shadow-lg">
+      <summary class="font-semibold text-xl flex items-center gap-3 list-none text-white">
+        <span class="text-2xl">🔒</span> Güvenli mi? Kimliğim ya da bilgilerim paylaşılır mı?
+        <span class="ml-auto transition-transform duration-300 group-open:rotate-45 text-white text-2xl">+</span>
+      </summary>
+      <p class="mt-3 pl-8 text-white/90">
+        Kesinlikle hayır. Kimlik bilgilerin hiçbir şekilde paylaşılmaz. Tüm süreç gizlilikle yürütülür. Güven, bizim için her şeyden önce gelir.
+      </p>
+    </details>
+
+    <details class="group bg-white/20 rounded-lg shadow-md p-5 cursor-pointer transition hover:shadow-lg">
+      <summary class="font-semibold text-xl flex items-center gap-3 list-none text-white">
+        <span class="text-2xl">🧾</span> Ödeme nasıl yapılır?
+        <span class="ml-auto transition-transform duration-300 group-open:rotate-45 text-white text-2xl">+</span>
+      </summary>
+      <p class="mt-3 pl-8 text-white/90">
+        Kazançların haftalık veya günlük olarak Papara, IBAN, Binance, Epay gibi sistemlerle gönderilir. Hangi uygulamada çalıştığına göre ödeme yöntemi belirlenir.
+      </p>
+    </details>
+
+    <details class="group bg-white/20 rounded-lg shadow-md p-5 cursor-pointer transition hover:shadow-lg">
+      <summary class="font-semibold text-xl flex items-center gap-3 list-none text-white">
+        <span class="text-2xl">🚫</span> Herkes yayıncı olabilir mi?
+        <span class="ml-auto transition-transform duration-300 group-open:rotate-45 text-white text-2xl">+</span>
+      </summary>
+      <p class="mt-3 pl-8 text-white/90">
+        Başvurular değerlendirmeye alınır. Uygun bulunan adaylar, kısa bir oryantasyon sonrası sisteme alınır. Uyum ve iletişim tarzı bu işte önemlidir.
+      </p>
+    </details>
+
+  </div>
+</section>
+
+<!-- Aradaki boşluk -->
+<div style="height: 80px;"></div>
+
+<!-- Gizlilik Politikası & KVKK -->
+<section
+  id="privacy"
+  class="py-20 px-8 max-w-5xl mx-auto rounded-xl shadow-xl text-white"
+  style="background: linear-gradient(135deg, #a084ca, #d8b4f8);"
+  data-aos="fade-up"
+>
+  <h3 class="text-4xl font-extrabold mb-12 text-center tracking-wide drop-shadow-md uppercase">
+    Gizlilik Politikası ve KVKK Aydınlatma Metni
+  </h3>
+  <div class="max-w-4xl mx-auto leading-relaxed space-y-6 text-white">
+    <h4 class="font-semibold text-lg mt-8">Hangi verileri topluyoruz?</h4>
+    <p>Ad, iletişim bilgileri, yaş bilgisi, uygulama tercihleri ve çalışma uygunluğu, kazanç ve performans verileri (sadece iç sistemde) gibi bilgileri topluyoruz.</p>
+
+    <h4 class="font-semibold text-lg mt-8">Verileriniz ne amaçla kullanılır?</h4>
+    <p>Yayıncı başvurularını değerlendirmek, uygun uygulama eşleşmelerini sağlamak, performans ve kazanç süreçlerini yönetmek ve eğitim ile destek süreçlerini yürütmek amacıyla kullanılır.</p>
+
+    <h4 class="font-semibold text-lg mt-8">Verileriniz paylaşılır mı?</h4>
+    <p>Hayır. Kişisel verileriniz hiçbir şekilde üçüncü şahıslarla paylaşılmaz, satılmaz ve açık rıza olmaksızın dış kaynaklara aktarılmaz.</p>
+
+    <h4 class="font-semibold text-lg mt-8">KVKK kapsamında haklarınız nelerdir?</h4>
+    <p>6698 Sayılı Kişisel Verilerin Korunması Kanunu (KVKK) uyarınca kişisel verilerinize erişme, verilerin düzeltilmesini veya silinmesini talep etme ve işlenmesine itiraz etme haklarına sahipsiniz.</p>
+
+    <h4 class="font-semibold text-lg mt-8">Bu haklarınızı nasıl kullanabilirsiniz?</h4>
+    <p>Bu haklarınızı kullanmak veya herhangi bir konuda bilgi almak isterseniz <a href="mailto:Aventurinajansresmi@gmail.com" class="underline font-semibold text-white hover:text-gray-100 transition">Aventurinajansresmi@gmail.com</a> adresi üzerinden ya da WhatsApp hattımızdan bizimle iletişime geçebilirsiniz.</p>
+
+    <h4 class="font-semibold text-lg mt-8">Ek Bilgilendirme</h4>
+    <p>Bu web sitesine yaptığınız başvurular ve paylaştığınız bilgiler, yalnızca ajans içi kullanım içindir. Sitemiz çerez (cookie) veya benzeri kullanıcı takibi sistemleri kullanmaz.</p>
+  </div>
+</section>
+<!-- Başvuru Formu -->
+<section
+  id="basvuru"
+  class="py-20 px-8 max-w-5xl mx-auto rounded-xl shadow-xl text-white mt-40 pb-40"
+  style="background: linear-gradient(135deg, #a084ca, #d8b4f8);"
+  data-aos="fade-up"
+>
+  <h3 class="text-4xl font-extrabold mb-16 text-center tracking-wide drop-shadow-md uppercase">
+    Başvuru Formu
+  </h3>
+  <form
+    action="https://formspree.io/f/mgebldwq"
+    method="POST"
+    class="max-w-3xl mx-auto bg-white bg-opacity-20 backdrop-blur-md p-8 rounded-xl shadow-lg border border-white/20"
+  >
+    <div class="mb-6">
+      <label for="name" class="block font-semibold mb-2">Adınız ve Soyadınız *</label>
+      <input
+        type="text"
+        id="name"
+        name="AdSoyad"
+        required
+        class="w-full rounded px-4 py-3 bg-white bg-opacity-70 text-black focus:outline-none focus:ring-4 focus:ring-purple-300 transition"
+        placeholder="Adınızı ve soyadınızı yazınız"
+      />
+    </div>
+
+    <div class="mb-6">
+      <label for="email" class="block font-semibold mb-2">E-posta Adresiniz *</label>
+      <input
+        type="email"
+        id="email"
+        name="Email"
+        required
+        class="w-full rounded px-4 py-3 bg-white bg-opacity-70 text-black focus:outline-none focus:ring-4 focus:ring-purple-300 transition"
+        placeholder="example@mail.com"
+      />
+    </div>
+
+    <div class="mb-6">
+      <label for="phone" class="block font-semibold mb-2">Telefon Numaranız *</label>
+      <input
+        type="tel"
+        id="phone"
+        name="Telefon"
+        required
+        class="w-full rounded px-4 py-3 bg-white bg-opacity-70 text-black focus:outline-none focus:ring-4 focus:ring-purple-300 transition"
+        placeholder="5xx xxx xx xx"
+      />
+    </div>
+
+    <div class="mb-6">
+      <label for="age" class="block font-semibold mb-2">Yaşınız *</label>
+      <select
+        id="age"
+        name="Yaş"
+        required
+        class="w-full rounded px-4 py-3 bg-white bg-opacity-70 text-black focus:outline-none focus:ring-4 focus:ring-purple-300 transition"
+      >
+        <option value="" disabled selected>Yaşınızı seçin</option>
+        <option value="18-25">18-25</option>
+        <option value="26-35">26-35</option>
+        <option value="36-45">36-45</option>
+        <option value="46+">46 ve üzeri</option>
+      </select>
+    </div>
+
+    <div class="mb-6">
+      <label for="device" class="block font-semibold mb-2">Kullandığınız cihaz *</label>
+      <select
+        id="device"
+        name="Cihaz"
+        required
+        class="w-full rounded px-4 py-3 bg-white bg-opacity-70 text-black focus:outline-none focus:ring-4 focus:ring-purple-300 transition"
+      >
+        <option value="" disabled selected>Cihazınızı seçin</option>
+        <option value="Telefon">Telefon</option>
+        <option value="Bilgisayar">Bilgisayar</option>
+        <option value="Her İkisi">Her İkisi</option>
+      </select>
+    </div>
+
+    <div class="mb-6">
+      <label for="time" class="block font-semibold mb-2">Günde ortalama ne kadar zaman ayırabilirsiniz? *</label>
+      <select
+        id="time"
+        name="Zaman"
+        required
+        class="w-full rounded px-4 py-3 bg-white bg-opacity-70 text-black focus:outline-none focus:ring-4 focus:ring-purple-300 transition"
+      >
+        <option value="" disabled selected>Zamanınızı seçin</option>
+        <option value="1-2 Saat">1-2 Saat</option>
+        <option value="3-4 Saat">3-4 Saat</option>
+        <option value="5 Saat ve üzeri">5 Saat ve üzeri</option>
+      </select>
+    </div>
+
+    <div class="mb-8">
+      <label for="msg" class="block font-semibold mb-2">Bize iletmek istediğiniz bir şey var mı?</label>
+      <textarea
+        id="msg"
+        name="Mesaj"
+        rows="4"
+        class="w-full rounded px-4 py-3 bg-white bg-opacity-70 text-black focus:outline-none focus:ring-4 focus:ring-purple-300 transition"
+        placeholder="İsterseniz mesajınızı yazabilirsiniz..."
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      class="w-full text-white font-bold py-4 rounded-lg shadow-md transition duration-300 ease-in-out"
+      style="background-color: #6b6278; box-shadow: 0 4px 15px rgba(107, 98, 120, 0.5);"
+      onmouseover="this.style.backgroundColor='#7c7190'; this.style.boxShadow='0 6px 20px rgba(124, 113, 144, 0.7)';"
+      onmouseout="this.style.backgroundColor='#6b6278'; this.style.boxShadow='0 4px 15px rgba(107, 98, 120, 0.5)';"
+    >
+      Başvuruyu Gönder
+    </button>
+  </form>
+</section>
+
+<!-- İletişim -->
+<footer
+  id="contact"
+  class="w-full px-4 py-6 mt-16 text-center text-white shadow-xl"
+  style="
+    background: linear-gradient(135deg, #a084ca, #d8b4f8);
+    box-shadow: 0 0 25px rgba(107, 98, 120, 0.8);
+  "
+  data-aos="fade-up"
+>
+  <h3 class="text-2xl font-bold mb-4 uppercase tracking-wide">
+    İletişim
+  </h3>
+
+  <p class="mb-2 text-sm">
+    E-posta: 
+    <a
+      href="mailto:Aventurinajansresmi@gmail.com"
+      class="underline decoration-white underline-offset-2 hover:text-white/80 transition font-medium"
+    >
+      Aventurinajansresmi@gmail.com
+    </a>
+  </p>
+
+  <p class="mb-4 text-sm">
+    WhatsApp: <br />
+    <a
+      href="https://wa.me/+971569589917"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block mt-1 bg-white text-[#6b3fa0] font-semibold px-3 py-2 rounded-md shadow-sm hover:bg-gray-100 transition"
+    >
+      +971 56 958 9917
+    </a>
+  </p>
+
+  <p class="text-xs text-white/80 mt-4">&copy; 2025 Aventurin Ajans. Tüm hakları saklıdır.</p>
+</footer>
+
+<!-- AOS Animasyon -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+</script>
+
+<!-- WhatsApp Butonu -->
+<a href="https://wa.me/971569589917" target="_blank" rel="noopener noreferrer"
+   style="
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     background-color: #25D366;
+     color: white;
+     border-radius: 50%;
+     width: 60px;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+     z-index: 1000;
+     text-decoration: none;
+   "
+   aria-label="WhatsApp ile iletişime geç">
+   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 24 24">
+     <path d="M20.52 3.478A11.815 11.815 0 0012 0C5.373 0 0 5.373 0 12a11.968 11.968 0 001.62 6L0 24l6-1.62a11.968 11.968 0 006 1.62c6.627 0 12-5.373 12-12 0-3.192-1.25-6.188-3.48-8.52zM12 21.75a9.747 9.747 0 01-5.042-1.408l-.36-.214-3.728 1.004 1-3.63-.235-.37A9.75 9.75 0 1121.75 12c0 5.385-4.365 9.75-9.75 9.75zm5.308-7.543c-.294-.147-1.742-.86-2.012-.958-.27-.1-.47-.147-.67.147s-.77.958-.945 1.154c-.175.196-.35.22-.645.074-.294-.147-1.242-.458-2.37-1.46-.876-.78-1.47-1.743-1.643-2.038-.175-.294-.019-.453.13-.6.134-.133.294-.35.44-.524.147-.175.196-.294.294-.49.098-.196.05-.367-.025-.514-.075-.147-.67-1.615-.918-2.217-.242-.58-.487-.5-.67-.51-.174-.007-.374-.008-.573-.008s-.52.074-.792.367c-.27.294-1.03 1.006-1.03 2.449s1.055 2.845 1.2 3.042c.147.196 2.073 3.167 5.02 4.44.702.302 1.248.482 1.674.616.703.22 1.343.19 1.85.115.565-.084 1.742-.71 1.99-1.398.247-.686.247-1.274.173-1.397-.074-.123-.27-.196-.563-.343z"/>
+   </svg>
+</a>
+
+</body>
+</html>
